@@ -2,6 +2,6 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="text-center w-full border fixed bottom-0 bg-white">{`Copyright © Renier Meintjies ${year}`}</footer>
+    <footer className="text-center border-t bg-white p-1">{`Copyright © Renier Meintjies ${year}`}</footer>
   );
 }

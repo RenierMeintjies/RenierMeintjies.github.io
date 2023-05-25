@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col">
+    <div className="h-[90vh]">
       <h1 className="text-center text-9xl">Hey :)</h1>
       <img
         className="w-[35rem] mx-auto my-5"
