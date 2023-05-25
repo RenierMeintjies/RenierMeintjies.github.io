@@ -14,9 +14,9 @@ import Footer from "../components/Footer";
   </head>
   <body>
     <div>
-      <Header />
+      <Header client:load />
       <slot />
-      <Footer />
+      <Footer client:visible />
     </div>
   </body>
 </html>

@@ -6,17 +6,12 @@ export default function Landing() {
 
         <ul className="flex items-center gap-5">
           <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
-              Work
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
+            <a className="hover:text-cyan-500 transition-colors" href="/about/">
               About
             </a>
           </li>
           <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
+            <a className="hover:text-cyan-500 transition-colors" href="/contact/">
               Contact Me
             </a>
           </li>
