@@ -1,29 +1,12 @@
-import React from "react";
-
-export default function Landing() {
+export default function Hero() {
   return (
-    <div className="shadow bg-white">
-      <div className="h-16 mx-auto px-5 flex items-center justify-between">
-        <img src="/logo-no-background.svg" className="w-24" />
-
-        <ul className="flex items-center gap-5">
-          <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
-              Work
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-cyan-500 transition-colors" href="">
-              Contact Me
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div className="flex flex-col">
+      <h1 className="text-center text-9xl">Hey :)</h1>
+      <img
+        className="w-[35rem] mx-auto my-5"
+        src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      />
+      <h1 className="text-center text-lg text-red-600">WIP: all projects will go here ^</h1>
     </div>
   );
 }
