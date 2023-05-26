@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Renier Meintjies",
   desc: "A site to document my journey as a developer.",
   title: "Renier Meintjies",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "aaron-burden-xG8IQMqMITM-unsplash.jpg",
   lightAndDarkMode: true,
   postPerPage: 4,
 };
