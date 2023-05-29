@@ -11,4 +11,4 @@ ogImage: ""
 description: "first post to make my blog not look empty."
 ---
 
-# Hi
+# Hi, go have a look at the "about" page for more info.
