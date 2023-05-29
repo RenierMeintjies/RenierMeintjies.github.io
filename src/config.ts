@@ -15,8 +15,8 @@ export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 export const LOGO_IMAGE = {
   enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 80,
+  height: 36,
 };
 
 export const SOCIALS: SocialObjects = [
@@ -48,13 +48,13 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: true,
+    active: false,
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/renier1337",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
