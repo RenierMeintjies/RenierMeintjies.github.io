@@ -7,47 +7,52 @@ title: "About"
 
 # Renier Meintjies
 
-I am a web developer from Cape Town, South Africa, I've been programming since 2019.
+I am a full-stack web developer from Cape Town, South Africa, I've been programming since 2019.
 
-### Some of the things I like to use include:</h3>
+## Certifications:
 
-Languages
+- Web Developer Bootcamp - Colt Steele, Aug 13th, 2019
+- CompTIA A+ Certified, June 14th, 2022
+
+## Some of the things I like to use include:</h3>
+
+#### Languages
 
 - Javascript
-- NodeJS
 - Typescript
-- Python
-- GO (working knowledge)
-- HTML
-- CSS
+- NodeJS
 - GraphQL
 - REST
+- HTML
+- CSS
 
-##### Frameworks / Libraries
+#### Frameworks / Libraries
 
 - React with hooks
-- Tailwindcss
-- Styled Components
-- jQeury
 - TanStack Query (FKA React Query)
-- Express
 - Apollo (client/server/express middleware)
+- Styled Components
+- Tailwindcss
+- Express
+- jQeury
 
-##### Cloud Technologies
+#### Cloud Technologies
 
 - Google Cloud Platform
-- App Engine
 - Cloud Functions
+- App Engine
 - Pub / Sub
 - Firebase
 - MongoDB
 
-##### Toolchains & Misc
+#### Toolchains & Misc
 
 - Astro
 - Vite
 - Ansible
 - Vim
 - WSL (Windows Subsytem for Linux)
-- Fedora / Debian / Arch Linux btw
+- Fedora / Debian / Arch Linux
 - Bash scripting
+- Insomnia
+- DBeaver
