@@ -1,5 +1,5 @@
 ---
-title: New blog, who is this?
+title: New blog who is this?
 author: Renier
 pubDatetime: 2023-05-26T08:43:43Z
 postSlug: this-is-my-first-post
