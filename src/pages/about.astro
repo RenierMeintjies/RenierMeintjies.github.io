@@ -1,4 +1,6 @@
 ---
+import { AiFillCloud } from "react-icons/ai";
+
 import { SITE } from "@config";
 
 import Layout from "../layouts/Layout.astro";
@@ -6,25 +8,84 @@ import Main from "../layouts/Main.astro";
 
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import Breadcrumbs from "../components/Breadcrumbs.astro";
 ---
 
 <Layout title={`About | ${SITE.title}`}>
-  <Header activeNav={about} />
-  <Breadcrumbs />
+  <Header activeNav={"about"} />
   <Main pageTitle="About">
-    <h2>Hi, my name is</h2>
-    # Renier Meintjies I am a full-stack web developer from Cape Town, South Africa,
-    I've been programming since 2019. ## Certifications: - Web Developer Bootcamp
-    - Colt Steele, Aug 13th, 2019 - CompTIA A+ Certified, June 14th, 2022 ## Some
-    of the things I like to use include: #### Languages 👨‍💻 - Javascript - Typescript
-    - NodeJS - GraphQL - HTML - CSS #### Frameworks / Libraries 👓 - React with hooks
-    - TanStack Query (FKA React Query) - Apollo (client/server/express middleware)
-    - Styled Components - Tailwindcss - Express - jQeury #### Cloud Technologies
-    ☁️ - Google Cloud Platform - Cloud Functions - App Engine - Pub / Sub - Firebase
-    - MongoDB #### Toolchains & Misc 🛠️ - Astro - Vite - Ansible - Vim - WSL (Windows
-    Subsytem for Linux) - Fedora / Debian / Arch Linux - Bash scripting - Insomnia
-    - DBeaver
+    <h3>Hi, my name is</h3>
+    <h1>Renier Meintjies</h1>
+    <p>
+      I am a self-taught full-stack web developer from Cape Town, South Africa,
+      I've been programming since 2019.
+    </p>
+    <h3>Certifications:</h3>
+    <ul>
+      <li>Web Developer Bootcamp - Colt Steele, Aug 13th, 2019</li>
+      <li>CompTIA A+ Certified, June 14th, 2022</li>
+    </ul>
+
+    <h1>Some of the things I like to use include:</h1>
+    <h3>Languages 👨‍💻</h3>
+    <ul>
+      <li>Javascript</li>
+      <li>Typescript</li>
+      <li>NodeJS</li>
+      <li>GraphQL</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+    <h3>Frameworks / Libraries 👓</h3>
+    <ul>
+      <li>React with hooks</li>
+      <li>TanStack Query (FKA React Query)</li>
+      <li>Apollo (client/server/express middleware)</li>
+      <li>Styled Components</li>
+      <li>Tailwindcss</li>
+      <li>Express</li>
+      <li>jQeury</li>
+    </ul>
+
+    <h3>Cloud Technologies <AiFillCloud /></h3>
+    <ul>
+      <li>Google Cloud Platform</li>
+      <li>Cloud Functions</li>
+      <li>App Engine</li>
+      <li>Pub / Sub</li>
+      <li>Firebase</li>
+      <li>MongoDB</li>
+    </ul>
+    <h3>Toolchains & Misc 🛠️</h3>
+    <ul>
+      <li>Astro</li>
+      <li>Vite</li>
+      <li>Ansible</li>
+      <li>Vim</li>
+      <li>WSL (Windows Subsytem for Linux)</li>
+      <li>Fedora / Debian / Arch Linux</li>
+      <li>Bash scripting</li>
+      <li>Insomnia</li>
+      <li>DBeaver</li>
+    </ul>
+    <Footer />
   </Main>
-  <Footer />
+
+  <style>
+    h1 {
+      @apply my-4 text-4xl;
+    }
+
+    h3 {
+      @apply text-2xl;
+      color: rgb(238, 76, 173);
+    }
+
+    p {
+      @apply my-4;
+    }
+
+    ul {
+      @apply my-2 list-inside list-disc space-y-1 pl-5;
+    }
+  </style>
 </Layout>
