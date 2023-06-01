@@ -1,0 +1,30 @@
+---
+import { SITE } from "@config";
+
+import Layout from "../layouts/Layout.astro";
+import Main from "../layouts/Main.astro";
+
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+---
+
+<Layout title={`About | ${SITE.title}`}>
+  <Header activeNav={about} />
+  <Breadcrumbs />
+  <Main pageTitle="About">
+    <h2>Hi, my name is</h2>
+    # Renier Meintjies I am a full-stack web developer from Cape Town, South Africa,
+    I've been programming since 2019. ## Certifications: - Web Developer Bootcamp
+    - Colt Steele, Aug 13th, 2019 - CompTIA A+ Certified, June 14th, 2022 ## Some
+    of the things I like to use include: #### Languages 👨‍💻 - Javascript - Typescript
+    - NodeJS - GraphQL - HTML - CSS #### Frameworks / Libraries 👓 - React with hooks
+    - TanStack Query (FKA React Query) - Apollo (client/server/express middleware)
+    - Styled Components - Tailwindcss - Express - jQeury #### Cloud Technologies
+    ☁️ - Google Cloud Platform - Cloud Functions - App Engine - Pub / Sub - Firebase
+    - MongoDB #### Toolchains & Misc 🛠️ - Astro - Vite - Ansible - Vim - WSL (Windows
+    Subsytem for Linux) - Fedora / Debian / Arch Linux - Bash scripting - Insomnia
+    - DBeaver
+  </Main>
+  <Footer />
+</Layout>
