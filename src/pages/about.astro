@@ -14,8 +14,8 @@ import Footer from "../components/Footer.astro";
 <Layout title={`About | ${SITE.title}`}>
   <Header activeNav={"about"} />
   <Main pageTitle="About">
-    <h3>Hi, my name is</h3>
-    <h1>Renier Meintjies</h1>
+    <h1>Hi, my name is</h1>
+    <h2>Renier Meintjies</h2>
     <p>
       I am a self-taught full-stack web developer from Cape Town, South Africa,
       I've been programming since 2019 & love open source.
@@ -68,12 +68,22 @@ import Footer from "../components/Footer.astro";
       <li>Insomnia</li>
       <li>DBeaver</li>
     </ul>
+    <h4>
+      Get in touch on <span
+        ><a href="https://twitter.com/renier1337">Twitter</a></span
+      >
+    </h4>
     <Footer />
   </Main>
 
   <style>
     h1 {
-      @apply my-4 text-4xl;
+      @apply my-4;
+    }
+
+    h2 {
+      @apply text-4xl;
+      color: rgb(238, 76, 173);
     }
 
     h3 {
@@ -81,8 +91,21 @@ import Footer from "../components/Footer.astro";
       color: rgb(238, 76, 173);
     }
 
+    h4 {
+      @apply my-4 text-2xl;
+    }
+
     p {
       @apply my-4;
+    }
+
+    a {
+      color: hotpink;
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: cyan;
     }
 
     ul {
